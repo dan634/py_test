@@ -36,5 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest script.py --doctest-modules --junitxml=junit/test-results.xml
+        ls -la
+        # pytest script.py --doctest-modules --junitxml=junit/test-results.xml
+        pytest
         python script.py
