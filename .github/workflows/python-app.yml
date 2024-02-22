@@ -38,5 +38,5 @@ jobs:
       run: |
         ls -la
         # pytest script.py --doctest-modules --junitxml=junit/test-results.xml
-        pytest
+        pytest .
         python script.py
