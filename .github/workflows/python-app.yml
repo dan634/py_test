@@ -47,4 +47,6 @@ jobs:
         ls -la
         # pytest script.py --doctest-modules --junitxml=junit/test-results.xml
         # pytest .
-        python3 script.py
+        python3 script.py 2 3
+        INPUT_STORE=$(python3 script.py 2 3)
+        echo $INPUT_STORE
