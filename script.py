@@ -27,7 +27,8 @@ def sum_numbers(num1, num2):
   sum = num1 + num2
 
   # Print the sum
-  print(f"The sum of {num1} and {num2} is: {sum}")
+  #print(f"The sum of {num1} and {num2} is: {sum}")
+  return sum
 
 # Call the function with the arguments passed from command line
 sum_numbers(sys.argv[1], sys.argv[2])
