@@ -28,6 +28,7 @@ def sum_numbers(num1, num2):
 
   # Print the sum
   #print(f"The sum of {num1} and {num2} is: {sum}")
+  print(f"{sum}")
   return sum
 
 # Call the function with the arguments passed from command line
